@@ -11,7 +11,7 @@ def calculation(combination_list, x) :
     best_combination = [] # 一番良い組み合わせ
     count = 0            # リストの一つ一つを区切るためのcount変数
    
-
+#test
     for goods in combination_list :
         if len(goods) < 12:#一番軽いの同士の組み合わせでも11個が限界なので12個以上は計算するまでもなく重量オーバー
             for number in goods :
